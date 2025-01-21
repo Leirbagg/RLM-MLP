@@ -30,6 +30,8 @@ Application de SAM sur le dataset COCO pour évaluer ses capacités de segmentat
 
 ### Segmentation des images avec SAM
 
+**Fichier** : SAM+SpatialSense.ipybn
+
 **Description** : Ce notebook utilise SAM pour segmenter les objets à partir des boîtes englobantes des images du dataset SpatialSense+.
 
 **Usage** :
@@ -42,6 +44,8 @@ Application de SAM sur le dataset COCO pour évaluer ses capacités de segmentat
 
 ### Prédiction avec RLM + MLP
 
+**Fichier** : RLM+MLP.ipybn
+
 **Description** : Génère des descripteurs RLM à partir des masques binaires et entraîne un MLP pour prédire les relations spatiales directionnelles.
 
 **Usage** : 
@@ -51,6 +55,8 @@ Application de SAM sur le dataset COCO pour évaluer ses capacités de segmentat
 - Evaluation du MLP.
 
 ### Test de SAM sur COCO
+
+**Fichier** : SAM+COCO.ipybn
 
 **Description** : Évalue les performances de SAM sur des images du dataset COCO en termes de segmentation.
 
