@@ -27,6 +27,7 @@ Application de SAM sur le dataset COCO pour évaluer ses capacités de segmentat
 
 ## Notebooks
 
+**Remarque** : Les chemins vers les dossiers, images et modèles dans les notebooks doivent être adaptés en fonction de votre configuration locale pour un usage correct.
 
 ### Segmentation des images avec SAM
 
