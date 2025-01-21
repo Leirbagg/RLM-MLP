@@ -12,9 +12,6 @@ Ce projet implémente une méthode basée sur des descripteurs de positions rela
 
 Utilisation de Segment Anything Model (SAM) pour extraire les masques binaires à partir des boîtes englobantes des objets dans le dataset SpatialSense+.
 
-![screenshot](image/exemple.png)
-
-
 2. Extraction des Descripteurs :
 
 Calcul des descripteurs en passant les paires de masques binaires dans le modèle Extended RLM.
@@ -39,6 +36,8 @@ Application de SAM sur le dataset COCO pour évaluer ses capacités de segmentat
 
 - Fournissez les chemins des images et annotations.
 - Obtenez des masques segmentés sauvegardés dans un répertoire donné.
+
+![screenshot](image/exemple.png)
 
 
 ### Prédiction avec RLM + MLP
